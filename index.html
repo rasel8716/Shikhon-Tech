@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shikhon Tech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #4B0082;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    nav {
+      background-color: #FF6600;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services li {
+      margin-bottom: 10px;
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      margin-top: 1rem;
+      background-color: #FF6600;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    footer {
+      background-color: #4B0082;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .contact-info {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Shikhon Tech Logo">
+    <h1>Shikhon Tech</h1>
+    <p>Learn Smarter, Grow Faster</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Shikhon Tech শুরু হয়েছিল একটি সাধারণ চিন্তা থেকে—"টেকনোলজি সবার জন্য সহজ করে উপস্থাপন করা"। ২০২৫ সালে যাত্রা শুরু করে, আমরা এখন বাংলাদেশের হাজারো শিক্ষার্থী ও পেশাদারকে ডিজিটাল স্কিল শিখতে সাহায্য করছি।</p>
+  </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul class="services">
+      <li>Digital Marketing</li>
+      <li>Graphics Design</li>
+      <li>Online IT Related Courses</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 01779108716</p>
+      <p><strong>Email:</strong> shikhontech.info@gmail.com</p>
+      <p><strong>Location:</strong> Kamal Kachna, Rangpur</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Shikhon Tech. All rights reserved.</p>
+  </footer>
+</body>
+</html>
